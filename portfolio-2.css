@@ -11,7 +11,7 @@ body{
 .header{
     background-image: url("images/banner/banner1.png");
     height: 800px;
-    /* display: flex; */
+    margin-bottom: 80px;
 }
 
 .header-title{
@@ -48,4 +48,206 @@ body{
     border-radius: 5px;
     color:white;
     margin-left: 1246px;
+    box-shadow: 0px 6px 50px rgba(0,0,0,0.06);
+}
+
+.profile{
+    width: 527.929px;
+    height: 527.929px;
+    border-radius: 527.929px;
+    background:rgb(224, 255, 255);
+    margin-top: 250px;
+    margin-left:230px ;
+    
+}
+
+.profile-picture{
+    margin-top: -195px;
+    margin-left: -23px;
+}
+
+.section{
+    display: flex;
+    width: 1200px;
+    gap: 170px;
+    
+}
+
+.profile-heading{
+    font-size: 40px;
+    width: 300px;
+    color:#151414;
+
+
+    
+}
+
+.paragraph{
+    font-size: 16px;
+    color: #757575;
+    width:420px ;
+    line-height:1.5;
+    margin-top: -3px;
+}
+
+.list{
+    font-size: 16px;
+    color:#757575 ;
+    
+}
+
+.profile-info{
+    margin-top: 260px;
+}
+
+.fa-solid{
+  
+    margin-right: 10px;
+    color: orange;
+}
+
+.plans-start{
+    margin-top: 130px;
+   text-align: center;
+   margin-left: 270px;
+   width: 1180px;
+   height: 400px;
+}
+
+.plan{
+    display: flex;
+    gap: 80px;
+    
+
+}
+
+.plan-title{
+    
+    font-size: 39px;
+    font-weight: bold;
+   
+}
+
+#plan-title{
+    margin-left: -120px;
+    margin-bottom: 70px;
+}
+
+.skill-title{
+    font-size: 28px;
+    color:#151414;
+    font-weight: bolder;
+    font-weight: 700;
+    
+}
+
+.skill-description{
+    font-size: 25px;
+    color:#757575 ;
+
+}
+
+.banner{
+    background-image:url("images/gradient2.png"),url("images/watch.png") ;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.banner{
+    margin-left:210px;
+    margin-top: 70px;
+}
+
+.banner-content{
+  margin-left: 80px;
+  padding-top: 40px;
+  
+}
+
+.banner-title{
+   font-size: 38px;
+   color: white;
+   width: 450px;
+}    
+
+.banner-button{
+       border: none;
+       width: 130px;
+       height: 55px;
+       border-radius: 5px;
+       font-size: 16px;
+       font-weight: bold;
+       color: #F15B22;
+       text-align: center;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color:#151414;
+    height: 570px;
+    margin-top: 130px;
+    gap: 300px;
+}
+
+.footer-info{
+    margin-top: 100px;
+}
+
+.footer-header{
+ font-size: 36px;
+ color: white;
+ 
+}
+
+.footer-paragraph{
+ color: #757575;
+ width:480px ;
+ line-height: 1.5;
+ 
+}
+
+.social-media{
+    margin-right: 12px;
+    margin-top: 10px;
+}
+
+.footer-buttons{
+ margin-top: 110px;
+}
+
+.footer-title{
+    font-size: 20px;
+    color:aliceblue;
+}
+
+.input-email{
+    width: 250px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 1px solid #FFF;
+    background-color: #151414;
+    color: var(--dark-07, #F3F3F3);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.subscribe-button{
+    width:130px;
+    height:52px;
+    font-size: 16px;
+    border-radius: 5px;
+    color:#F15B22;
+    border: none;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+
 }
